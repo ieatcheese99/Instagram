@@ -1,7 +1,7 @@
 package com.example.instagram.models
 
 // ========================
-// DATA CLASS
+// DATA CLASSES
 // ========================
 data class Post(
     val username: String,
@@ -29,7 +29,8 @@ data class Message(
 
 data class SuggestedUser(
     val username: String,
-    val mutualInfo: String
+    val mutualInfo: String,
+    val profileImage: String
 )
 
 // ========================
@@ -68,8 +69,8 @@ val samplePosts = listOf(
     )
 )
 
-val suggestedUsers = listOf(
-    SuggestedUser("anga", "Diikuti oleh morr + 2 lainnya"),
-    SuggestedUser("morr", "Diikuti oleh zabdan + 3 lainnya"),
-    SuggestedUser("travel_buddy", "Diikuti oleh anga + 1 lainnya")
+val suggestedUsersList = listOf(
+    SuggestedUser("anga", "Diikuti oleh morr + 2 lainnya", "https://i.pravatar.cc/150?img=1"),
+    SuggestedUser("morr", "Diikuti oleh zabdan + 3 lainnya", "https://i.pravatar.cc/150?img=2"),
+    SuggestedUser("travel_buddy", "Diikuti oleh anga + 1 lainnya", "https://i.pravatar.cc/150?img=3")
 )
