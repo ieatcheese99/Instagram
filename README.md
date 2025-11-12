@@ -7,9 +7,7 @@ A simple Instagram clone built using Kotlin.
 - **Unggah foto**: Pengguna dapat mengunggah foto ke profil mereka.
 - **Feed utama**: Tampilkan foto-foto terbaru dari semua pengguna.
 - **Sukai dan komentar**: Berikan tanda suka dan komentar pada postingan.
-- **Profil pengguna**: Edit dan lihat informasi profil, termasuk foto yang telah diunggah.
 - **Pencarian pengguna**: Cari pengguna lain berdasarkan nama.
-- **Notifikasi**: Mendapatkan pemberitahuan untuk interaksi baru.
 
 ## Teknologi yang Digunakan
 
@@ -54,10 +52,6 @@ Instagram/
 3. **Build dan jalankan aplikasi**
     - Hubungkan perangkat Android / emulator
     - Klik tombol Run
-
-4. **Login atau daftar akun baru**
-
-5. **Unggah foto dan mulai berinteraksi!**
 
 ---
 
